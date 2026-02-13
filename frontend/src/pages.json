@@ -1,0 +1,56 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "Rapport",
+        "navigationBarBackgroundColor": "#007AFF",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/timeline/timeline",
+      "style": {
+        "navigationBarTitleText": "联系人详情",
+        "navigationBarBackgroundColor": "#007AFF",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationBarBackgroundColor": "#007AFF",
+        "navigationBarTextStyle": "white",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png",
+        "text": "联系人"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Rapport",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^r-(.*)": "@/components/r-$1.vue"
+    }
+  }
+}
