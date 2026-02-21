@@ -4,7 +4,10 @@
       "Bash(copy:*)",
       "Bash(uvicorn:*)",
       "Bash(npm run dev:h5:*)",
-      "Bash(python -m uvicorn:*)"
+      "Bash(python -m uvicorn:*)",
+      "Bash(pip install:*)",
+      "Bash(pip3:*)",
+      "Bash(PYTHONPATH=/Users/leeon/00_Code/10_Active/Rapport_v1.0/backend python3:*)"
     ]
   }
 }
